@@ -1,23 +1,27 @@
 
 import './App.css'
-import { QquartaAula } from './lesson/QquartaAula'
+import { OitavaAula } from './lesson/OitavaAula'
+
+
 import { QQuartaAulaa } from './lesson/QQuartaAulaa'
 import { QuintaAula } from './lesson/QuintaAula'
-
 import { SegundaAula } from './lesson/SegundaAula'
 import { SetimaAula } from './lesson/SetimaAula/indes'
+import { SetimaAulaCardProdutos } from './lesson/SetimaAulaCardProduto'
 import { TerceiraAula } from './lesson/TerceiraAula'
 
 function App() {
  
 
   return (
+    // <SetimaAulaCardProdutos/>
     // <SetimaAula/>
     // <SegundaAula/>
     // <TerceiraAula/>
-    // <QquartaAula/>
-  //  <QQuartaAulaa/>
-  <QuintaAula/>
+  <OitavaAula/>
+  // <QuintaAula/>
+  // <OitavaAula/>
+  // <setimaAulaCardProdutos/>
   )
 }
 

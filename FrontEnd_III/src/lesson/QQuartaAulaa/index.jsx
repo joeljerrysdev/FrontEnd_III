@@ -24,6 +24,7 @@ export function QQuartaAulaa(){
     return(
         <main className='quarta-aula-component'>
             <h1 className='main-title'>Componentes identificados</h1>
+            <div className='componentss'>
             <ul className='components-finded'>
                 {
                     componentsFinded.map(
@@ -37,6 +38,7 @@ export function QQuartaAulaa(){
                     )
                 }
             </ul>
+            </div>
         </main>
     ) 
 }
