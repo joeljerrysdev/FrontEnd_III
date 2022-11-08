@@ -8,6 +8,7 @@ import { QuintaAula } from './lesson/QuintaAula'
 import { SegundaAula } from './lesson/SegundaAula'
 import { SetimaAula } from './lesson/SetimaAula/indes'
 import { SetimaAulaCardProdutos } from './lesson/SetimaAulaCardProduto'
+import { SextaAula } from './lesson/sextaAula'
 import { TerceiraAula } from './lesson/TerceiraAula'
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
   // <QuintaAula/>
   // <OitavaAula/>
   // <setimaAulaCardProdutos/>
+  // <SextaAula/>
   )
 }
 
