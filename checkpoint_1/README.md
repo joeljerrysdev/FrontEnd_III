@@ -6,7 +6,7 @@
 
 Projeto de catalago de filmes preferidos desenvolvido para o checkpoint 1 de FrontEd 3.
 
-[🔗 Clique aqui para acessar](https://joeljerrysdev.github.io/FrontEnd_III/checkpoint_1/)
+[🔗 Clique aqui para acessar](https://joeljerrysdev.github.io/FrontEnd_III/)
 
 ## 🛠 Tecnologias
 
