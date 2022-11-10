@@ -1,3 +1,4 @@
+
 .imputs{
     display: flex;
     gap: 15px;
@@ -5,14 +6,18 @@
     height: 100px;
     width: 80%;
     padding-top: 25px;
+    margin: auto;
     border-radius: 25px;
+    border-bottom: 2px solid rgb(51, 30, 236);
     justify-content: center;
+    
+    
     
     input{
         margin: 15px;
         border-radius: 4px;
         height: 30px;
-        border: 3px solid rgb(105, 194, 105) ;
+        border: 3px solid rgb(51, 30, 236) ;
         background-color: rgb(222, 230, 237);
     }
 }
@@ -56,12 +61,15 @@
 button {
 
     font-size: 16px;
-    background-color: rgb(105, 194, 105);
+    background-color: rgb(51, 30, 236);
+    color: white;
     padding: 12px 24px;
     border: none;
     border-radius: 4px;
     transition: .2s ease-in-out;
-    margin: 15px ;
+    margin: 20px ;
+   
+    
 
     &:hover {
 
@@ -74,22 +82,17 @@ button {
 .card-filme {
 
     background-color:  #303030;
-    width: calc(32% - 12px);
+    width: calc(22% - 12px);
     border: 1px solid #303030;
     border-radius: 12px;
-    overflow: hidden;
-    transition: .2s ease-in-out;
+       
 
     &:hover {
 
         filter: brightness(110%);
-        cursor: pointer;
-        overflow: hidden;
-        -webkit-transition: -webkit-transform .5s ease;
-        transition: transform .5s ease;
-        -webkit-transform: scale(1.1);
-        transform: scale(1.1);
-
+        cursor: pointer; 
+        transform: scale(1.1);      
+        
     }
 
     img {
