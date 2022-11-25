@@ -1,0 +1,32 @@
+
+header{
+
+    button{
+        background-color: rgb(31, 31, 159);
+        color: white;
+        width: 150px;
+        border-radius: 5px;
+        gap: 20px;
+        padding: 15px;
+        margin: 15px;
+    }
+}
+
+.main-layout-component {
+
+    .main-layout-component-header {
+
+        background-color: #404040;
+        padding: 42px;
+        margin-bottom: 12px;
+
+    }
+
+    .main-layout-component-main {
+
+        background-color: #505050;
+        padding: 42px;
+
+    }
+
+}

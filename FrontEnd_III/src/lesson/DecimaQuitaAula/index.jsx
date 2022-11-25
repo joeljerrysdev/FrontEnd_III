@@ -1,9 +1,12 @@
 import { DecimaQuintaAulaComponentes } from "../../components/DecimaQuintaAulaComponentes";
 import "./style.scss";
 import { useState } from "react";
+import { useParams } from "react-router-dom";
 export function DecimaQuintaAula() {
   const [location, setLocation] = useState([]);
   const [cep, setCep] = useState("");
+  const { id } = useParams()
+  console.log(id)
 
   function searchCep(cepReceived) {
     setCep(cepReceived);
